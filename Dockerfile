@@ -16,7 +16,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Делаем start.sh исполняемым
-RUN chmod +x start.sh
+RUN chmod +x start-container.sh
 
 # Открываем порт Flask
 EXPOSE 3030
